@@ -23,6 +23,11 @@
 						<artifactId>snakeyaml</artifactId>
 						<version>1.12</version>
 					</dependency>
+					<dependency>
+                         <groupId>com.mysql</groupId>
+                         <artifactId>jdbc.Driver</artifactId>
+                         <version>12.1.0.1</version>
+                 </dependency>
 				</dependencies>
 			</plugin>
 		</plugins>
