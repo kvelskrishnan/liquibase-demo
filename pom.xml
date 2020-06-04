@@ -66,7 +66,7 @@
 					<configuration>                                                            
                     <changeLogFile>db.changelog-1.0.0.yml</changeLogFile>   
                     <driver>com.mysql.jdbc.Driver</driver>                                 
-                    <url>jdbc:mysql://40.118.58.179:3306/MyDB</url>                            
+                    <url>jdbc:mysql://40.118.58.179:3306/liquibase_demo</url>                            
                     <username>root</username>                                              
                     <password>1234</password>                                              
                     </configuration>                                                           
