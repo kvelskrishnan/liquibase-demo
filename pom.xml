@@ -69,6 +69,22 @@
 
 	<profiles>
 		<profile>
+      <id>production</id>
+      <properties>
+        <mysql.host>40.118.58.179</mysql.host>
+        <mysql.port>3306</mysql.port>
+        <mysql.db>liquibase_demo</mysql.db>
+      </properties>
+    </profile>
+    <profile>
+      <id>test</id>
+      <properties>
+        <mysql.host>40.118.58.179</mysql.host>
+        <mysql.port>3306</mysql.port>
+        <mysql.db>liquibase_demo</mysql.db>
+      </properties>
+    </profile>
+		<profile>
 			<id>update</id>
 			<build>
 				<plugins>
