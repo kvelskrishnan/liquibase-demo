@@ -5,7 +5,6 @@ databaseChangeLog:
       changes:
         - sqlFile:
             path: scripts/1.0.0/001_create_user_table.sql
-            name: test_database
       rollback:
         - sqlFile:
             path: scripts/1.0.0/rollback/001_drop_user_table.sql
