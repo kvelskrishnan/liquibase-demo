@@ -12,7 +12,6 @@
 			<plugin>
 				<groupId>org.liquibase</groupId>
 				<artifactId>liquibase-maven-plugin</artifactId>
-				<version>
 				<dependencies>
 					<dependency>                                          
 	                      <groupId>org.liquibase</groupId>                      
