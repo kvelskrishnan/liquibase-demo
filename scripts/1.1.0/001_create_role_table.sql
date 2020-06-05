@@ -1,4 +1,4 @@
-create table ctsdevops_user (
+create table t_user (
 	id INTEGER ,
 	description VARCHAR(50)
 )
